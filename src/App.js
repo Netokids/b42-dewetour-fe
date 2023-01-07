@@ -10,7 +10,6 @@ import Profile from './components/profile-history-trip';
 import {  Route, Routes } from 'react-router-dom';
 import Incoming from './components/admin-incoming-transcation';
 import Addtrip from './components/addtrip';
-import DetailTripAdmin from './components/detail-trip-admin';
 import FormAddtrip from './components/FormAddtrip';
 import { Privateadmin, PrivateUser } from './components/privateroute';
 import { UserContext } from './context/userContext';
@@ -112,12 +111,6 @@ function App() {
           <Route path="/FormAddtrip" element={(
             <div>
               <FormAddtrip />
-              <Footer />
-            </div>
-          )} />
-          <Route path="/detailtripadmin/:id" element={(
-            <div>
-              <DetailTripAdmin />
               <Footer />
             </div>
           )} />
