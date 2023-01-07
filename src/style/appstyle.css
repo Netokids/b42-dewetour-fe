@@ -1,0 +1,33 @@
+.App{
+height: 80vh;
+background : url(../assets/img/pantai.jpg);
+background-size:cover;
+}
+
+.Button1{
+    color: white;
+    width: 100px;
+    margin-right: 10px;
+}
+
+.Button2{
+    color: white;
+    width: 100px;
+}
+
+.img1{
+    color: #fff;
+}
+
+.card{
+    width: 350px;
+    height: 350px;
+    background: #FFFFFF;
+    border-radius: 5px;
+}
+
+.test {
+    height: 15vh;
+background : url(../assets/img/pantai.jpg);
+background-size:cover;
+}   

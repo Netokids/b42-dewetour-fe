@@ -1,0 +1,36 @@
+.home{
+    width: auto;
+    margin-bottom: 40px;
+
+}
+.Explore{
+    color: white;
+    font-style: Sans-;
+    margin-left: 100px;
+    font-weight: 700;
+    font-size: 64px;
+    padding-top: 50px;
+}
+.Explore2{
+    color: white;
+    font-style: sans thin ;
+    font-weight: 300;
+    font-size: 64px;
+    margin-left: 100px;
+}
+
+.Explore3{
+    padding-top: 30px;
+    color: #ffffff;
+    margin-left: 100px;
+    font-style: sans;
+    font-weight: 400;
+}
+
+.testing{
+    width: 1081px;
+    margin-left: 100px;
+}
+.button1{
+    color: #ffffff;
+}

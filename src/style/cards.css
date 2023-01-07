@@ -1,0 +1,15 @@
+.card1{ 
+    width: auto;
+    height: 350px;
+    margin-top: 30px;
+}
+
+.forcard{
+    width: 250px;
+    height: 350px;
+    border-radius: 5px;
+}
+
+.comtain{
+    margin-right: 20px;
+}
