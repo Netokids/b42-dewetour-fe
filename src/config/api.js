@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export const API = axios.create({
-  baseURL: process.env.REACT_APP_BASEURL,
+  baseURL: `https://b42-dewetour-be-production.up.railway.app/`,
 });
 
 export const setAuthToken = (token) => {
