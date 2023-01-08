@@ -93,7 +93,6 @@ const Detail = () => {
             onPending: function (result) {
                 console.log(result);
                 alert("payment pending");
-                localStorage.setItem("token_snap", result.token);
                 navigate("/booknow");
                 window.location.reload();
             },
@@ -102,7 +101,6 @@ const Detail = () => {
             onClose: function (result) {
                 alert("you closed the popup without finishing the payment");
                 navigate("/booknow");
-                localStorage.setItem("token_snap", result.token);
                 window.location.reload();
             },
         });
